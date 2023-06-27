@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.openwizard" name="[COLOR limegreen]Open[/COLOR]Wizard" version="1.4.9" provider-name="drinfernoo">
+<addon id="plugin.program.raguloopenwizard" name="Ragulos[COLOR limegreen]Open[/COLOR]Wizard" version="0.0.1" provider-name="ragulo">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.requests" />
@@ -15,7 +15,7 @@
     <extension point="xbmc.service" library="startup.py" start="startup" />
     
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLOR limegreen]Open[/COLOR]Wizard</summary>
+        <summary lang="en">Ragulos[COLOR limegreen]Open[/COLOR]Wizard</summary>
         <description lang="en">[COLOR limegreen]Open[/COLOR]Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
